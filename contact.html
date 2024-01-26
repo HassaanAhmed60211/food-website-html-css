@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="heading">
+        <h2>CONTACT FORM</h2>
+    </div>
+    <div class="divider"></div>
+
+    <div class="form-container">
+        <div class="input-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" class="inp-msgver">
+            <label for="email">Email:</label>
+            <input type="text" id="email" class="inp-msgver">
+        </div>
+        <div class="input-group">
+            <label for="age">Age:</label>
+            <input type="text" id="age" class="inp-msgver">
+            <label for="number">Number:</label>
+            <input type="text" id="number" class="inp-msgver">
+        </div>
+
+        <div class="input-group">
+            <label for="message">Message:</label>
+            <textarea id="message" class="inp-msg"></textarea>
+        </div>
+
+        <button class="btn">Submit</button>
+    </div>
+
+    <div style="height: 20px;"></div>
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+
+        .heading {
+            color: black;
+            font-size: 25px;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            width: 100%;
+            padding: 20px 0;
+            background-color: #ead4cc;
+            border-bottom: 2px solid #ddd;
+        }
+
+        .form-container {
+            border-radius: 20px;
+            width: 60%;
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        input, textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .inp-msgver {
+            resize: vertical;
+            width: 550px;
+            height: 10px;
+        }
+        .inp-msg {
+            resize: vertical;
+            width: 400px;
+            height: 100px;
+        }
+
+        .btn {
+            background-color: #ff4081;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .btn:hover {
+            background-color: #d81b60;
+        }
+
+        .divider {
+            background-color: #ddd;
+            width: 100%;
+            height: 1px;
+        }
+    </style>
+    
+</body>
+</html>

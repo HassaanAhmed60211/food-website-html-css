@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading {
+    background-color: #ead4cc;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.divider {
+    background-color: #ddd;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 400px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    padding: 20px;
+    vertical-align: top;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.item {
+    text-align: center;
+    padding: 20px;
+}
+
+h4, h5 {
+    margin: 5px 0;
+    color: #333;
+}
+
+.total-container {
+    text-align: center;
+    margin-top: 20px;
+}
